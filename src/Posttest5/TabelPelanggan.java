@@ -393,7 +393,7 @@ private DefaultTableModel model;
         // TODO add your handling code here:
        try{
            int baris = jTable1.getSelectedRow();
-           model.removeRow(baris);}
+           model.removeRow(baris);} 
        catch (ArrayIndexOutOfBoundsException e) {
            JOptionPane.showMessageDialog(rootPane,"PILIH DOLOe","Kesalahan",WIDTH);
        }
